@@ -135,7 +135,7 @@ while True:
     # Cartesian space inverse dynamics with postural task
     F_des = pdd_des + conf.Kx.dot(p_des-p) + conf.Dx.dot(pd_des-pd)
     mu =  JTpinv.dot(h) -lambda_.dot(Jdqd)
-    tau = J.T.dot(lambda_.dot(F_des) + mu) #+ tau_null                 
+    tau = J.T.dot(lambda_.dot(F_des) + mu) + tau_null                 
     
     # SIMULATION of the forward dynamics
     qdd = M_inv.dot(tau - h)    
