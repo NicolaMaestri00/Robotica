@@ -21,14 +21,8 @@ arranging frames suitably.
 2. Compute the forward kinematics (position/orientation) and differential kinematics
 (Jacobian) of the end-effector.
 3. Use Pinocchio library’s RNEA native function to create a simulator of the motion.
-4. Plan a polynomial trajectory (in the task space) to move from a coming configuration
-$q_{home}$ to a given end-effector configuration-orientation $p_{des}$ pdes + Θdes.
-5. Write an inverse-dynamics (computed torque) control action in the task space to
-linearize the system and achieve tracking of the task.
-6. Set the PD gains of the Cartesian controller implemented on the linearized system
-to achieve a settling time of 7s without overshoot.
-1
-Final Assignment 2
-7. In the null-space of the task minimize the distance with respect to a given configuration q0 of your choice.
-8. Simulate the robot to reach the location pdes = [1, 2, 1] from the homing configuration
-qhome = [0, 0, 0, 0].
+4. Plan a polynomial trajectory (in the task space) to move from a coming configuration $q_{home}$ to a given end-effector configuration-orientation $p_{des}+ \Theta_{des}$.
+5. Write an inverse-dynamics (computed torque) control action in the task space to linearize the system and achieve tracking of the task.
+6. Set the PD gains of the Cartesian controller implemented on the linearized system to achieve a settling time of 7s without overshoot.
+7. In the null space of the task minimize the distance with respect to a given configuration q0 of your choice.
+8. Simulate the robot to reach the location $p_{des} = [1, 2, 1]$ from the homing configuration $q_{home}= [0, 0, 0, 0]$.
