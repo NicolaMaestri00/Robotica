@@ -14,3 +14,21 @@ to properly orient the microphone (not necessarily with intersecting axes).
 We want to be able to locate the microphone at any point in the 5x5 conference room, with a certain
 pitch orientation (30 deg) with respect to the horizontal (the task is 4D), to allow people to talk 
 comfortably in the microphone. 
+
+The project can be approached through the following incremental steps:
+1. Construct the URDF model of the robot, selecting appropriate link lengths and
+arranging frames suitably.
+2. Compute the forward kinematics (position/orientation) and differential kinematics
+(Jacobian) of the end-effector.
+3. Use Pinocchio library’s RNEA native function to create a simulator of the motion.
+4. Plan a polynomial trajectory (in the task space) to move from a coming configuration
+qhome to a given end-effector configuration-orientation pdes + Θdes.
+5. Write an inverse-dynamics (computed torque) control action in the task space to
+linearize the system and achieve tracking of the task.
+6. Set the PD gains of the Cartesian controller implemented on the linearized system
+to achieve a settling time of 7s without overshoot.
+1
+Final Assignment 2
+7. In the null-space of the task minimize the distance with respect to a given configuration q0 of your choice.
+8. Simulate the robot to reach the location pdes = [1, 2, 1] from the homing configuration
+qhome = [0, 0, 0, 0].
