@@ -9,11 +9,9 @@
 - Learning the basic procedure to design a motion controller in the joint space for a manipulator in free-motion (i.e. not in contact)
 - Analyze the advantages/disadvantages of decentralized/ centralized approaches (i.e. feedback linearization)
 - Implement the interaction with the environment with a compliant contact mode
-### Lab 4
+### Lab 4-5-6
 - Acquire confidence in some invariant properties of floating base dynamics.
-### Lab 5
 - Contact consistent (fixed) base dynamics
-### Lab 6
 - Floating base robot: quasi-static control of locomotion stability
 ### Lab 7
 - Learning the basic procedure to design an admittance controller for the end-effector of a manipulator in contact with the environment with the purpose to control the interaction with a human.
