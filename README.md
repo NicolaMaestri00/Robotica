@@ -1,8 +1,8 @@
 # Introduction to Robotics (UniTn)
 
-Laboratori e 
+## Laboratories
 
-Final Assignment
+## Final Assignment
 Handing a microphone to random people that want to ask questions after a talk, can be a duly task, 
 and we want to automatize it. The assignment for the final project is to design a giraffe robot that 
 is able to place a microphone in front of a person in a small theatre/conference room. 
