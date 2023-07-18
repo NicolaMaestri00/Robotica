@@ -22,7 +22,7 @@ arranging frames suitably.
 (Jacobian) of the end-effector.
 3. Use Pinocchio library’s RNEA native function to create a simulator of the motion.
 4. Plan a polynomial trajectory (in the task space) to move from a coming configuration
-qhome to a given end-effector configuration-orientation pdes + Θdes.
+$q_{home}$ to a given end-effector configuration-orientation $p_{des}$ pdes + Θdes.
 5. Write an inverse-dynamics (computed torque) control action in the task space to
 linearize the system and achieve tracking of the task.
 6. Set the PD gains of the Cartesian controller implemented on the linearized system
