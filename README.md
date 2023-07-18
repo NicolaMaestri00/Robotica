@@ -8,9 +8,9 @@ The goals of this assignment are:
 - compute and analyze the forward/inverse dynamics of a 4-DoF serial manipulator using the Recursive Newton-Euler Algorithm (RNEA)
 ### Lab 2
 The goals of this assignment are:
-• learning the basic procedure to design a motion controller in the joint space for a manipulator in free-motion (i.e. not in contact)
-• analyze the advantage/disadvantage of decentralized/ centralized approaches (i.e. feedback linearization)
-• implement the interaction with the environment with a compliant contact mode
+- learning the basic procedure to design a motion controller in the joint space for a manipulator in free-motion (i.e. not in contact)
+- analyze the advantages/disadvantages of decentralized/ centralized approaches (i.e. feedback linearization)
+- implement the interaction with the environment with a compliant contact mode
 
 ## Final Assignment
 Handing a microphone to random people that want to ask questions after a talk, can be a duly task, 
