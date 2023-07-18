@@ -1,2 +1,2 @@
-# Robotica
-Laboratori e progetto finale corso Introduction to Robotics UniTn
+# Introduction to Robotics (UniTn)
+Laboratori e progetto finale
