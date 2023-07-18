@@ -3,9 +3,9 @@
 ## Laboratories
 ### Lab 1
 The goals of this assignment are:
-• learning the basic procedure to visualize a robot model using the Unified Robot Description Format (URDF)
-• compute and visualize the direct/inverse kinematics of a 4-DoF serial manipulator
-• compute and analyze the forward/inverse dynamics of a 4-DoF serial manipulator using the Recursive Newton-Euler Algorithm (RNEA)
+- learning the basic procedure to visualize a robot model using the Unified Robot Description Format (URDF)
+- compute and visualize the direct/inverse kinematics of a 4-DoF serial manipulator
+- compute and analyze the forward/inverse dynamics of a 4-DoF serial manipulator using the Recursive Newton-Euler Algorithm (RNEA)
 ### Lab 2
 The goals of this assignment are:
 • learning the basic procedure to design a motion controller in the joint space for a manipulator in free-motion (i.e. not in contact)
