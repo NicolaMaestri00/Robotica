@@ -18,13 +18,13 @@
 - Implement an obstacle avoidance planning algorithm base on potential fields.
 
 ## Final Assignment
-Handing a microphone to random people that want to ask questions after a talk, can be a duly task, 
+Handing a microphone to random people that want to ask questions after a talk can be a duly task, 
 and we want to automatize it. The assignment for the final project is to design a giraffe robot that 
 is able to place a microphone in front of a person in a small theatre/conference room. 
 The robot is located in the middle of the room and attached to the ceiling. The room is 4 m high 
-and the robot should be able to reach 1 m high locations in a 5x12 meters area.
+and the robot should be able to reach 1 m high locations in a 5x12 square meters area.
 The robot should have 5 degrees of freedom: a spherical joint at the base (2 revolute joints with 
-intersecting axes), one prismatic joint that is able to achieve a long extension and 2 revolute joints 
+intersecting axes), one prismatic joint that can achieve a long extension and 2 revolute joints 
 to properly orient the microphone (not necessarily with intersecting axes). 
 We want to be able to locate the microphone at any point in the 5x5 conference room, with a certain
 pitch orientation (30 deg) with respect to the horizontal (the task is 4D), to allow people to talk 
@@ -41,3 +41,9 @@ arranging frames suitably.
 6. Set the PD gains of the Cartesian controller implemented on the linearized system to achieve a settling time of 7s without overshoot.
 7. In the null space of the task minimize the distance with respect to a given configuration q0 of your choice.
 8. Simulate the robot to reach the location $p_{des} = [1, 2, 1]$ from the homing configuration $q_{home}= [0, 0, 0, 0]$.
+
+## Tools
+- Robot Operative System (ROS)
+- Pinocchio Library
+- Locosim
+- Python
